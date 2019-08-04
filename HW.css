@@ -1,0 +1,111 @@
+/*This is the code for the social media icons on the Lesedi Profile Page */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+        .fa-facebook {
+            background: darkblue;
+            color: white;
+        }
+  
+        .fa-twitter {
+            background: lightblue;
+            color: white;
+        }
+
+
+/*Element selector*/
+
+    h1  {
+        color: orange;
+        }
+
+/*Class selector*/
+
+.uni {
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*ID selector*/
+
+#lesedi {
+        width: 300px;
+        height: 300px;
+
+}
+
+/*Descendant Selector*/
+div > p {
+        text-align: center;
+        background-color: blueviolet;
+      }
+
+/*Direct Descendant Selector*/
+div1 > h3{
+        background-color: gold; 
+}
+
+/*Attribute Slector*/
+   li[target]{
+            color: magenta;
+            font-size: 19pt;
+}
+
+/*Text properties*/
+a { 
+    text-decoration: none;
+    }
+
+h1 {
+        word-spacing: 500px;
+      }
+
+h3  {
+    direction: rtl;
+    letter-spacing: 1.5cm;
+    }
+
+/*Serif vs San serif Fonts 
+Serif are a generic family of fonts that have small lines and the ends of some characters, like the letter F. e.g. Times New Roman  
+Sans-serif fonts are also part of a generic family of fonts that have these lines at the end of some characters. e.g. Arial*/
+
+/*Units for length in CSS
+Absoulte units - cm, mm, n, px, pt, pc.
+Relative lengths - em, ex, ch, rem, vw, vh, vin, vmax, % */
+
+/*Display properrties in CSS
+Inline, block, contents, flex, grif, inline-block, inline-flex, inline-grid, inline-table, list-item, run-in, table, table-caption,
+table-column-group, table-header-group, table-footer-group, table-cell, table-column, table-row, none, initial,inherit */
+
+u.hiremegirl {
+                display: inline-block;
+                }
+
+.mydiv {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Yes, the amount of padding does affect the height and width of an element.
+ You can change this by adding a width and height to the paragraph within the div element forcing it to remain the same width regardless 
+ of what padding is added to it */
+
+.mydiv2 {
+    color: greenyellow;
+    background-color: grey;
+    width: 65%;
+    border: 10mm solid rebeccapurple;
+}
+
+#contact {
+    padding: 30px;
+    background-color: brown;
+}
